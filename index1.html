@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-image">
+                    <img class="booking-img" src="img/download.png" alt="Booking Image">
+                </div>
+                <div class="booking-form">
+                    <form id="booking-form">
+                        <h2>BOOK HERE!</h2>
+                         <div class="form-group form-input">
+                            <input type="date" name="date" id="date" value="" required/>
+                            <label for="date" class="col-sm-3 control-label">Date</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="text" name="name" id="name" value="" required/>
+                            <label for="name" class="col-sm-3 control-label">Your name</label>
+                        </div>
+                         <div class="form-group form-input">
+                            <input type="email" name="email" id="email" value="" required/>
+                            <label for="email" class="col-sm-3 control-label">Email-Id</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="number" name="phone" id="phone" value="" required />
+                            <label for="phone" class="col-sm-3 control-label">Your Contact Number</label>
+                        </div>
+                         <div class="form-group form-input">
+                            <input type="textarea" name="address" id="address" value="" required/>
+                            <label for="address" class="col-sm-3 control-label">Address</label>
+                        </div>
+                         <div class="form-group form-input">
+                            <input type="number" name="pincode" id="pincode" value="" required/>
+                            <label for="pincode" class="col-sm-3 control-label">Pincode</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="select-list">
+                                <select name="vtype" id="type" required>
+                                    <option value="">Vehicle Type</option>
+                                    <option value="2">2 Wheeler</option>
+                                    <option value="4">4 wheeler</option>
+                                </select>
+                            </div>
+                        </div>
+                          <div class="form-group form-input">
+                            <input type="text" name="vmodel" id="model" value="" required/>
+                            <label for="model" class="col-sm-3 control-label">Vehicle Model</label>
+                        </div>
+                           <div class="form-group form-input">
+                            <input type="text" name="regno" id="regno" value="" required/>
+                            <label for="regno" class="col-sm-3 control-label">Vehicle Registration Number</label>
+                        </div
+                          <div class="form-group form-input">
+                            <input type="textarea" name="sdetails" id="sdetails" value="" required/>
+                            <label for="sdetails" class="col-sm-3 control-label">Service Registration Details</label>
+                        </div
+                        <div class="form-submit">
+                            <input type="submit" value="Book now" class="submit" id="submit" name="submit" />
+                            <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
