@@ -1,0 +1,67 @@
+body
+{
+	background-color: black;
+}
+#container
+{   
+	margin-top: 50px;
+	width: 900px;
+	background-color:none;
+	height: 1000px;
+    margin-left: 200px;
+}
+#header
+{
+	width: 900px;
+	height: 100px;
+	margin-bottom: 80px;
+}
+#menu
+{
+	height:45px;
+	width: 900px;
+	background-color:none;
+	margin-top: 20px;
+
+}#menu ul
+{
+	list-style-type: none;
+
+}
+#menu ul li
+{
+	float: left;
+	padding-top: 35px;
+	padding-left: 50px;
+    padding-bottom: 20px;
+}
+#menu ul li a
+{
+	color: white;
+    font-size:20px;
+    text-decoration: none;
+    display: block;
+
+}
+#menu ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+#book
+{   padding-top: 10px;
+	margin-bottom: 10px;
+	width: 900px;
+	height: 210px;
+}
+#status
+{
+	width: 900px;
+	height: 210px;
+}
+#footer
+{
+	background-color:black; 
+	width: 900px;
+	height: 210px;
+}

@@ -1,0 +1,12 @@
+body{
+ margin: 150px 90px 120px 100px;
+}
+.container
+{
+	height:450px; 
+	width:100%;
+	background-image:url(../img/se3.jpg); 
+	padding-top: 300px;
+	background-repeat: no-repeat;
+
+}
